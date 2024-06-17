@@ -1,0 +1,209 @@
+@font-face {
+  font-family: samim;
+  src: url('~assets/fonts/samim/Farsi-Digits/Samim-FD.eot?#iefix') format('FontName-opentype'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.woff') format('woff'),
+    url('~assets/fonts/samim/Farsi-Digits/Samim-FD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "samim" !important;
+}
+
+.line-height-description {
+  line-height: 2em;
+}
+
+.border-all-image {
+  border-radius: 18px;
+}
+
+.direction-social-networks-text {
+  float: right;
+}
+
+.social-networks {
+  background-image: linear-gradient(to right, #00f9a7, #00f933);
+  width: 345px;
+  border-radius: 15px;
+  height: 80px;
+}
+
+.border-question-box {
+  border-radius: 5px;
+}
+
+.direction-img-left-question {
+  float: inline-start;
+}
+
+.place-Slogan-aboutus-on-image {
+  width: 850px;
+  margin: -85px auto 0;
+  position: relative;
+}
+
+.height-input-form-safarcart {
+  height: 140px;
+}
+.collapse-transition {
+  transition: max-height 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.collapsed {
+  max-height: 0px;
+}
+
+.expanded {
+  max-height: 500px; /* Set an appropriate max-height value */
+}
+.login-header {
+  text-align: center;
+}
+
+.login-header h1 {
+  color: #3273dc;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.login-form .field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.login-form .button {
+  background-color: #3273dc;
+  color: #fff;
+}
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.logo{
+  width: 88px;
+}
+/* slider image for mobile */
+.slideshow-container {
+  max-width: 1507px;
+  position: relative;
+  width: 100%;
+}
+
+/* Caption text */
+.Caption-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+
+.width-shadow-slider{
+    width: 100%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+@media only screen and (min-width: 412px) {
+  .mySlides{
+    overflow: hidden;
+    height: 187px;
+  }
+  .mt-65{
+    margin-top: 44px;
+  } 
+  .body {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mySlides{
+    overflow: hidden;
+    height: 497px;
+  }
+  .body {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .mt-65{
+    margin-top: 65px;
+  }
+  .background-fixed{
+  background-image: url("static/index/travel11.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .white-color-text{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
